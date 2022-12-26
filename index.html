@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="assets/images/favicons/chefColor.png"
+      type="image/x-icon"
+    />
+    <link
       href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
       rel="stylesheet"
     />
@@ -18,11 +23,39 @@
   <body>
     <header>
       <nav>
-        <a href="#" class="a">Le menu</a>
-        <a href="#" class="a">À propos de nous</a>
-        <img src="assets/images/logo/logo.png" alt="logo_da&co" id="logo" />
-        <a href="#" class="a">Demandez un devis</a>
-        <a href="#" class="a">Nous contactez</a>
+        
+          <a href="#" class="a">Le menu</a>
+          <a href="#" class="a">À propos de nous</a>
+          <img src="assets/images/logo/logo.png" alt="logo_da&co" id="logo" />
+          <a href="#" class="a">Demandez un devis</a>
+          <a href="#" class="a">Nous contactez</a>
+          <i
+            class="fa-solid fa-bars"
+            id="menuBurger"
+            onclick="openMenu()"
+            ddd
+          ></i>
+        
+      </nav>
+      <nav id="navBurger">
+        <div id="titleMenu">
+          <span class="iconsGroupe"
+            ><a href="#" class="a">Le menu</a>
+            <i class="fa-solid fa-receipt" id="icoMenu"></i
+          ></span>
+          <span class="iconsGroupe">
+            <a href="#" class="a">À propos de nous</a>
+            <i class="fa-solid fa-info" id="icoMenu"></i
+          ></span>
+          <span class="iconsGroupe">
+            <a href="#" class="a">Demandez un devis</a>
+            <i class="fa-solid fa-scroll" id="icoMenu"></i
+          ></span>
+          <span class="iconsGroupe">
+            <a href="#" class="a">Nous contactez</a>
+            <i class="fa-solid fa-address-book" id="icoMenu"></i
+          ></span>
+        </div>
       </nav>
     </header>
     <section id="menu">
