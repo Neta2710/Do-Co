@@ -130,10 +130,11 @@ a:visited {
 }
 
 .container .card:after{
+  font-family: ui-rounded;
   content: 'Do&Co';
   position: absolute;
-  top: 60%;
-  left: -7%;
+  top: 65%;
+  left: -1%;
   transform: rotate(-15deg);
   font-size: 6em;
   font-weight: 800;
