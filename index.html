@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="a">Le menu</a>
+        <a href="#" class="a">À propos de nous</a>
+        <img src="assets/images/logo/logo.png" alt="logo_da&co" id="logo" />
+        <a href="#" class="a">Demandez un devis</a>
+        <a href="#" class="a">Nous contactez</a>
+      </nav>
+    </header>
+    <section id="menu">
+      <div class="title">
+        <h1>Plats de semaine</h1>
+      </div>
+      <div id="allCards">
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/fishTest.png" />
+            </div>
+            <div class="contentBx">
+              <h2>Fish & Pearls</h2>
+              <a href="#" class="about-recipe">En savoir plus +</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/cakeTest.png" id="cakeImg" />
+            </div>
+            <div class="contentBx">
+              <h2>Choco Cake</h2>
+              <a href="#" class="about-recipe">En savoir plus +</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/meatCarrotsTest.png" class="meatImg" />
+            </div>
+            <div class="contentBx">
+              <h2>Meat with his carrots</h2>
+              <a href="#" class="about-recipe">En savoir plus +</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/meatpotatoesTest.png" class="meatImg" />
+            </div>
+            <div class="contentBx">
+              <h2>Potatoes meat</h2>
+              <a href="#" class="about-recipe">En savoir plus +</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/testTest.png" class="meatImg" />
+            </div>
+            <div class="contentBx">
+              <h2>The mix meat</h2>
+              <a href="#" class="about-recipe">En savoir plus +</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="title">
+        <h1>À propos de nous</h1>
+      </div>
+      <div id="information">
+        <h1>Qui sommes nous ?</h1>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et vitae
+          quaerat aliquid quas recusandae reprehenderit tempore sit ea molestiae
+          facere? Voluptates voluptatem praesentium quae quam porro reiciendis
+          totam maiores modi. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Et vitae quaerat aliquid quas recusandae
+          reprehenderit tempore sit ea molestiae facere? Voluptates voluptatem
+          praesentium quae quam porro reiciendis totam maiores modi.
+        </p>
+        <img
+          src="./assets/images/thinking.png"
+          alt="thinking-man"
+          id="thninking"
+        />
+      </div>
+    </section>
+
+    <section id="devis">
+      <div class="title">
+        <h1>Demandez un devis</h1>
+      </div>
+
+      <div class="wrapper">
+        <form method="post" action="" class="ccform">
+          <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+            <input
+              class="ccformfield"
+              type="text"
+              placeholder="Nom Prénom"
+              required
+            />
+          </div>
+          <div class="ccfield-prepend">
+            <span class="ccform-addon"
+              ><i class="fa fa-envelope fa-2x"></i
+            ></span>
+            <input
+              class="ccformfield"
+              type="text"
+              placeholder="Adresse mail"
+              required
+            />
+          </div>
+          <div class="ccfield-prepend">
+            <span class="ccform-addon"
+              ><i class="fa fa-mobile-phone fa-2x"></i
+            ></span>
+            <input class="ccformfield" type="text" placeholder="Téléphone" />
+          </div>
+          <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+            <input
+              class="ccformfield"
+              type="text"
+              placeholder="Suject"
+              required
+            />
+          </div>
+          <div class="ccfield-prepend">
+            <span class="ccform-addon"
+              ><i class="fa fa-comment fa-2x"></i
+            ></span>
+            <textarea
+              class="ccformfield"
+              name="comments"
+              rows="8"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div class="ccfield-prepend">
+            <input class="ccbtn" type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="title">
+        <h1>Contactez nous</h1>
+      </div>
+      <div id="icons">
+        <a href="tel:0650427201" class="icon"
+          ><i class="fa-solid fa-phone" id="phone"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/mam_traiteur/"
+          class="icon"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram" id="insta"></i
+        ></a>
+        <a href="mailto:exempleddd@gmail.com" class="icon"
+          ><i class="fa-solid fa-envelope" id="mail"></i
+        ></a>
+        <a href="https://wa.me/0650427201" class="icon" target="_blank"
+          ><i class="fa-brands fa-whatsapp" id="whatsapp"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p id="copyright">
+        Copyright 2022 © Tout les droits sont reserver à Mr Chetrit.
+        <a href="tel:+33650427201">0650427201</a> |
+        <a href="mailto:ChetritNetanael@gmail.com" id="email">
+          ChetritNetanael@gmail.com</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
