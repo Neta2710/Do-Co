@@ -28,7 +28,8 @@ header {
 
 #thinking {
   width: 350px;
-  border: gray 5px solid;
+  border: #c5beb5 5px solid;
+  padding: 2px;
 
 }
 nav {
@@ -599,6 +600,8 @@ footer {
 }
 #thinking {
   width: 260px;
+  border: #c5beb5 5px solid;
+  padding: 2px;
 }
 }
 
