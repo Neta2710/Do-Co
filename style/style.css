@@ -52,10 +52,8 @@ nav {
 }
 
 .a {
-    position: relative;
+    padding: 0px 60px;
     text-decoration: none;
-    margin-right: 15%;
-    margin-left: 15%;
     font-size: 20px;
     color: #505050;
     font-weight: bold;
