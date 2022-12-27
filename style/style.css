@@ -383,8 +383,11 @@ display: flex;
 }
 
 .ccform {
-   margin: 0 auto;
-    width: 800px;
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  flex-direction: column;
+  align-items: center;
 }
 .ccfield-prepend{
   margin-bottom:10px;
