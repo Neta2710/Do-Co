@@ -547,7 +547,7 @@ footer {
   #navBurger {
     height: 10px;
     position: relative;
-                                                          display: flex;           
+    display: flex;           
     flex-direction: column;
     flex-wrap: nowrap;
     transition: height 1s ease;
@@ -557,6 +557,7 @@ footer {
     margin: 10px 0px;
   }
   #icoMenu {
+    left: -10px;
     font-size: 30px;
     position: relative;
     margin-left: 70px;
@@ -579,7 +580,7 @@ footer {
   }
 
   #titleMenu {
-    top: -210px;
+    top: -230px;
     transition: top 0.9s ease-in-out;
     position: relative;
   }
