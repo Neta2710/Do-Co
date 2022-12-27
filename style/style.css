@@ -8,6 +8,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #F5EFE6;
     display: flex;
@@ -22,11 +26,21 @@ header {
     width: 100%;
 }
 
+
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+#firstNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #navBurger {
@@ -40,8 +54,8 @@ nav {
 .a {
     position: relative;
     text-decoration: none;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
     font-size: 20px;
     color: #505050;
     font-weight: bold;
@@ -506,9 +520,14 @@ footer {
 }
 
 @media screen and (max-width: 995px) { 
-  nav {
+  #test {
     display: flex;
     justify-content: space-between;
+  }
+  #firstNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   .a {
     display: none;
@@ -530,7 +549,7 @@ footer {
   #navBurger {
     height: 10px;
     position: relative;
-    display: none;
+                                                          display: flex;           
     flex-direction: column;
     flex-wrap: nowrap;
     transition: height 1s ease;
@@ -562,8 +581,8 @@ footer {
   }
 
   #titleMenu {
-    top :-195px;
-    transition: top 0.5s ease-in-out;
+    top: -210px;
+    transition: top 0.9s ease-in-out;
     position: relative;
   }
   #icons {

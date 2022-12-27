@@ -22,37 +22,37 @@
   </head>
   <body>
     <header>
-      <nav>
-        
-          <a href="#" class="a">Le menu</a>
-          <a href="#" class="a">À propos de nous</a>
+      <nav id="test">
+          <div id="firstNav">
+          <a href="#about" class="a">À propos de nous</a>
+          <a href="#menu" class="a">Le menu</a>
           <img src="assets/images/logo/logo.png" alt="logo_da&co" id="logo" />
-          <a href="#" class="a">Demandez un devis</a>
-          <a href="#" class="a">Nous contactez</a>
+          <a href="#devis" class="a">Demandez un devis</a>
+          <a href="#contact" class="a">Nous contactez</a>
           <i
             class="fa-solid fa-bars"
             id="menuBurger"
             onclick="openMenu()"
-            ddd
           ></i>
+          </div>
         
       </nav>
       <nav id="navBurger">
         <div id="titleMenu">
-          <span class="iconsGroupe"
-            ><a href="#" class="a">Le menu</a>
-            <i class="fa-solid fa-receipt" id="icoMenu"></i
-          ></span>
-          <span class="iconsGroupe">
-            <a href="#" class="a">À propos de nous</a>
+          <span class="iconsGroupe"  onclick="hideNav()">
+            <a href="#about" class="a" >À propos de nous</a>
             <i class="fa-solid fa-info" id="icoMenu"></i
           ></span>
-          <span class="iconsGroupe">
-            <a href="#" class="a">Demandez un devis</a>
+          <span class="iconsGroupe"  onclick="hideNav()"
+          ><a href="#menu" class="a" >Le menu</a>
+          <i class="fa-solid fa-receipt" id="icoMenu"></i
+        ></span>
+          <span class="iconsGroupe"  onclick="hideNav()">
+            <a href="#devis" class="a">Demandez un devis</a>
             <i class="fa-solid fa-scroll" id="icoMenu"></i
           ></span>
-          <span class="iconsGroupe">
-            <a href="#" class="a">Nous contactez</a>
+          <span class="iconsGroupe"  onclick="hideNav()">
+            <a href="#contact" class="a" >Nous contactez</a>
             <i class="fa-solid fa-address-book" id="icoMenu"></i
           ></span>
         </div>
