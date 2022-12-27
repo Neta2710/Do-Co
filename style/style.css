@@ -558,15 +558,14 @@ footer {
     position: relative;
   }
   #icons {
-<<<<<<< HEAD
-    display: flex;
-  }
-}
-=======
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .ccfield-prepend {
+    margin-bottom: 10px;
+    width: 80%;
 }
->>>>>>> 5fe70e0c42796c4aa79a82d077dd1e22f36420cd
+}
+
