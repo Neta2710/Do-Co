@@ -26,7 +26,11 @@ header {
     width: 100%;
 }
 
+#thinking {
+  width: 350px;
+  border: gray 5px solid;
 
+}
 nav {
   display: flex;
   justify-content: center;
@@ -511,7 +515,6 @@ footer {
   
 }
 
-
 #copyright {
     width: 100%;
     font-size: 15px !important;
@@ -594,7 +597,7 @@ footer {
     margin-bottom: 10px;
     width: 80%;
 }
-#thninking {
+#thinking {
   width: 260px;
 }
 }
