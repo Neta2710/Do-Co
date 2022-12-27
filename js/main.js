@@ -36,6 +36,7 @@ function openMenu() {
 }
 
 function hideNav () {
-    document.getElementById("navBurger").style.display = "none";
-    test--
+    document.getElementById("navBurger").style.height = "0px"
+       document.getElementById("titleMenu").style.top = "-210px"
+    test = 1
 }
