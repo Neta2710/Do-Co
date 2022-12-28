@@ -718,6 +718,17 @@ footer {
     width: 220px;
   }
 }
+@media screen and (max-width: 650px) { 
+  #titleFullMenu {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #allCards {
+    margin-top: 6% !important;
+  }
+}
 
 @media screen and (max-width: 570px) { 
   #textInfo {
