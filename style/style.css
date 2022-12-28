@@ -185,13 +185,7 @@ padding: 3px 6px;
   right: 0px;
   background-color: #ffd70052;
 }
-#titleFullMenu:hover{
-  margin-top: 2px;
-  cursor: pointer;
-  position: absolute;
-  right: 0px;
-  background-color: #ffd70052;
-}
+
 
 #titleFullMenu i {
   font-size: 25px;
@@ -625,6 +619,16 @@ footer {
     font-size: 15px !important;
 }
 
+@media screen and (min-width: 1000px) {
+  #titleFullMenu:hover{
+    margin-top: 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    background-color: #ffd70052;
+  }
+}
+
 @media screen and (max-width: 995px) { 
   #test {
     display: flex;
@@ -720,11 +724,13 @@ footer {
 }
 @media screen and (max-width: 650px) { 
   #titleFullMenu {
+    margin-top: 5%;
     position: relative;
     display: flex;
     text-align: center;
     justify-content: center;
   }
+ 
   #allCards {
     margin-top: 6% !important;
   }
