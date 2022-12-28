@@ -1,5 +1,5 @@
 // var menu = document.getElementById("navBurger")
-var test = 1
+var x = 1
 // function openMenu() {
 //     document.querySelector(".test").style.display = "block"
 //     console.log("yes")
@@ -21,16 +21,16 @@ var test = 1
 // menu.style.display = "none"
 
 function openMenu() {
-    if (test == 1) {
+    if (x == 1) {
        // document.getElementById("navBurger").style.display = "flex";
         document.getElementById("navBurger").style.height = "235px"
         document.getElementById("titleMenu").style.top = "5px"
-        test++
+        x++
     } else {
        // document.getElementById("navBurger").style.display = "none";
        document.getElementById("navBurger").style.height = "0px"
        document.getElementById("titleMenu").style.top = "-210px"
-        test--
+        x--
     }
 
 }
@@ -38,5 +38,13 @@ function openMenu() {
 function hideNav () {
     document.getElementById("navBurger").style.height = "0px"
        document.getElementById("titleMenu").style.top = "-210px"
-    test = 1
+    x = 1
+}
+
+function viewFullMenu() {
+    document.getElementById("fullMenu").style.display = "flex"
+}
+
+function closeMenu() {
+    document.getElementById("fullMenu").style.display = "none"
 }

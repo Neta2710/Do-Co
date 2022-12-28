@@ -97,6 +97,110 @@ a:visited {
     border-left: 4px solid #7ab730 !important;
 }
 
+#sectionMain {
+
+}
+
+#fullMenu {
+   margin-left: 0;
+	 z-index: 100000;
+   top: 5%;
+   position: fixed;
+   justify-content: flex-start;
+   background-color: rgb(155 155 155 / 60%); 
+   width: 75%;
+   height: 90vh;
+   display: none;
+   left: 50%;
+   transform: translate(-50%, -0%);
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+}
+
+#soulignement {
+  width: 35%;
+}
+
+#fullMenu h1 { 
+  font-family: cursive;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+#fullMenu img {
+  margin-top: -15px;
+}
+
+#fullMenu i {
+font-size: 20px; 
+position: absolute;
+right: 0px;
+margin-top: 20px;
+margin-right: 25px;
+border: 2.5px solid black;
+padding: 3px 6px;
+}
+
+#fullMenu i:hover {
+  border: 2.5px solid rgb(167, 0, 0);
+  color:  rgb(167, 0, 0);
+  margin-top: 21px;
+}
+
+#gallery {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  height: 75%;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#gallery span {
+  margin: 50px;
+}
+
+.imgGallery {
+  position: relative;
+  top: 25px;
+  height: 50% !important;
+}
+
+.boxGallery {
+  border: 3px solid black;
+  width: 300px;
+  height: 400px;
+  background-color: #4e4e4e6e;
+}
+.boxGallery img {
+  width: auto !important;
+  margin-top: 10% !important;
+}
+
+#titleFullMenu{
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  background-color: #ffd70052;
+}
+#titleFullMenu:hover{
+  margin-top: 2px;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  background-color: #ffd70052;
+}
+
+#titleFullMenu i {
+  font-size: 25px;
+  position: relative;
+  margin-right: 35px;
+  margin-left: 15px;
+}
+
+
 .title h1 {
     margin-left: 7px;
 }
@@ -485,7 +589,7 @@ text-decoration: none;
 
 .icon {
     position: relative;
-    font-size: 70px !important;
+    font-size: 40px !important;
     margin-right: 70px;
     margin-left: 70px;
 }
@@ -588,6 +692,9 @@ footer {
     transition: top 0.9s ease-in-out;
     position: relative;
   }
+
+
+
   #icons {
     width: 100%;
     display: flex;
