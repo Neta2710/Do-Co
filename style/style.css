@@ -175,7 +175,7 @@ padding: 3px 6px;
   background-color: #4e4e4e6e;
 }
 .boxGallery img {
-  width: auto !important;
+  width: auto;
   margin-top: 10% !important;
 }
 
@@ -696,7 +696,7 @@ footer {
     transition: top 0.9s ease-in-out;
     position: relative;
   }
-
+  
 
 
   #icons {
@@ -721,6 +721,12 @@ footer {
   #thninking {
     width: 220px;
   }
+  #fullMenu {
+    width: 85%;
+  }
+  .boxGallery {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 650px) { 
   #titleFullMenu {
@@ -734,6 +740,13 @@ footer {
   #allCards {
     margin-top: 6% !important;
   }
+  .boxGallery {
+    width: 250px;
+  }
+  .imgGallery {
+    width: 100% !important;
+  }
+  
 }
 
 @media screen and (max-width: 570px) { 
@@ -744,4 +757,13 @@ footer {
     #textInfo p {
       width: 75%;
     }
+}
+
+
+@media screen and (max-width: 400px) { 
+  #fullMenu {
+    width: 90%;
+    height: 95vh;
+    margin-top: -2.5%;
+}
 }

@@ -37,14 +37,17 @@ function openMenu() {
 
 function hideNav () {
     document.getElementById("navBurger").style.height = "0px"
-       document.getElementById("titleMenu").style.top = "-210px"
+    document.getElementById("titleMenu").style.top = "-210px"
+
     x = 1
 }
 
 function viewFullMenu() {
     document.getElementById("fullMenu").style.display = "flex"
+    document.body.style.overflowY= "hidden"
 }
 
 function closeMenu() {
     document.getElementById("fullMenu").style.display = "none"
+    document.body.style.overflowY= "initial"
 }
