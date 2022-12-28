@@ -198,7 +198,7 @@
         <h1>Demandez un devis</h1>
       </div>
 
-      <div class="wrapper">
+      <div class="wrappers">
         <form method="post" action="" class="ccform">
           <div class="ccfield-prepend">
             <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
@@ -255,27 +255,27 @@
     </section>
 
     <section id="contact">
-      <div class="title">
-        <h1>Contactez nous</h1>
-      </div>
-      <div id="icons">
-        <a href="tel:0650427201" class="icon"
-          ><i class="fa-solid fa-phone" id="phone"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/mam_traiteur/"
-          class="icon"
-          target="_blank"
-        >
-          <i class="fa-brands fa-instagram" id="insta"></i
-        ></a>
-        <a href="mailto:exempleddd@gmail.com" class="icon"
-          ><i class="fa-solid fa-envelope" id="mail"></i
-        ></a>
-        <a href="https://wa.me/0650427201" class="icon" target="_blank"
-          ><i class="fa-brands fa-whatsapp" id="whatsapp"></i
-        ></a>
-      </div>
+      <ul class="wrapper" style="
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center">
+        <li class="icon phone">
+          <span class="tooltip">Phone</span>
+          <span ><a href="tel:0777736852"><i class="fa-solid fa-phone" id="iconContact"></a></i></span>
+        </li>
+        <li class="icon mail">
+          <span class="tooltip">Mail</span>
+          <span><a href="mailto:davidbrst@yahoo.fr" target="_blank"><i class="fa-solid fa-envelope" id="iconContact"></a></i></span>
+        </li>
+        <li class="icon whatsapp">
+          <span class="tooltip">Whatsapp</span>
+          <span><a href="https://api.whatsapp.com/send/?phone=0777736852" target="_blank"><i class="fa-brands fa-whatsapp" id="iconContact"></a></i></span>
+        </li>
+        <li class="icon instagram">
+          <span class="tooltip">Instagram</span>
+          <span><a href="https://www.instagram.com/mam_traiteur/?hl=fr" target="_blank"><i class="fab fa-instagram" id="iconContact"></a></i></span>
+        </li>
+      </ul>
     </section>
   </section>
     <footer>
