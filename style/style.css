@@ -741,6 +741,19 @@ footer {
   
 }
 
+@media screen and (max-width: 700px) { 
+  .cont_btn_open_dets {
+    display: none;
+  }
+  .cont_detalles{
+    
+    display: block;
+  }
+  .cont_btn_open_dets2 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .cont_modal_active > .cont_text_ingredients {
     width: 320px !important;

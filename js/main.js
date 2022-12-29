@@ -54,6 +54,15 @@ function closeMenu() {
 
 var c = 0;
 var d = 0;
+var widthSize = window.screen.availHeight
+var heightSize = window.screen.availWidth
+
+window.onresize = function () {
+   widthSize = window.screen.availHeight
+   heightSize = window.screen.availWidth
+  console.log(widthSize)
+  console.log(heightSize)
+}
 
 window.onload = function(){
   document.querySelector('.cont_modal').className = "cont_modal";    
@@ -72,6 +81,14 @@ function firstCard(){
     document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
     c--
   } 
+  if(window.screen.availWidth <= 700) {
+    alert("ok")
+    document.querySelector('.cont_modal').className = "cont_modal cont_modal_active"
+    document.querySelector('.cont_text_ingredients').style.display = "none";
+    document.querySelector('.cont_photo').style.float = "none";
+    document.querySelector('.cont_photo').style.marginLeft = "100px";
+    document.querySelector('.cont_photo').style.marginRight = "0";
+  }
     }
 
     function secondCard(){
@@ -82,4 +99,14 @@ function firstCard(){
         document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2";  
         d--
       } 
+      if(window.screen.availWidth <= 700) {
+        alert("ok")
+        document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
+        document.querySelector('.cont_text_ingredients2').style.display = "none";
+        document.querySelector('.cont_photo2').style.float = "none";
+        document.querySelector('.cont_photo2').style.marginLeft = "100px";
+        document.querySelector('.cont_photo2').style.marginRight = "0";
+      }
         }
+
+       
