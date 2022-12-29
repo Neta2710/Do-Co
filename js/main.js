@@ -54,6 +54,7 @@ function closeMenu() {
 
 var c = 0;
 var d = 0;
+var f = 0;
 var widthSize = window.screen.availHeight
 var heightSize = window.screen.availWidth
 
@@ -67,10 +68,13 @@ window.onresize = function () {
 window.onload = function(){
   document.querySelector('.cont_modal').className = "cont_modal";    
   document.querySelector('.cont_modal2').className = "cont_modal2";     
+  // document.querySelector('.cont_modal3').className = "cont_modal3";
   document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
   document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
+  // document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3"
   firstCard()
   secondCard()
+  // thirdCard()
   }
 
 function firstCard(){
@@ -82,7 +86,6 @@ function firstCard(){
     c--
   } 
   if(window.screen.availWidth <= 700) {
-    alert("ok")
     document.querySelector('.cont_modal').className = "cont_modal cont_modal_active"
     document.querySelector('.cont_text_ingredients').style.display = "none";
     document.querySelector('.cont_photo').style.float = "none";
@@ -100,7 +103,6 @@ function firstCard(){
         d--
       } 
       if(window.screen.availWidth <= 700) {
-        alert("ok")
         document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
         document.querySelector('.cont_text_ingredients2').style.display = "none";
         document.querySelector('.cont_photo2').style.float = "none";
@@ -108,5 +110,23 @@ function firstCard(){
         document.querySelector('.cont_photo2').style.marginRight = "0";
       }
         }
+
+
+        // function thirdCard(){
+        //   if(f == 0) {
+        //     document.querySelector('.cont_modal3').className = "cont_modal3";  
+        //     f++
+        //   } else {
+        //     document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3";  
+        //     f--
+        //   } 
+        //   if(window.screen.availWidth <= 700) {
+        //     document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3"
+        //     document.querySelector('.cont_text_ingredients3').style.display = "none";
+        //     document.querySelector('.cont_photo3').style.float = "none";
+        //     document.querySelector('.cont_photo3').style.marginLeft = "100px";
+        //     document.querySelector('.cont_photo3').style.marginRight = "0";
+        //   }
+        //     }
 
        
