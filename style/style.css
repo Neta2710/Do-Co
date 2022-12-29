@@ -941,6 +941,10 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 230px;
+  display: flex;
+  background-color: rgba(33, 33, 33, 0.55);
+  padding-bottom: 10px;
 }
 
 #text1 {
