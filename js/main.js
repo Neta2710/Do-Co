@@ -51,3 +51,35 @@ function closeMenu() {
     document.getElementById("fullMenu").style.display = "none"
     document.body.style.overflowY= "initial"
 }
+
+var c = 0;
+var d = 0;
+
+window.onload = function(){
+  document.querySelector('.cont_modal').className = "cont_modal";    
+  document.querySelector('.cont_modal2').className = "cont_modal2";     
+  document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
+  document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
+  firstCard()
+  secondCard()
+  }
+
+function firstCard(){
+  if(c == 0) {
+    document.querySelector('.cont_modal').className = "cont_modal";  
+    c++
+  } else {
+    document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
+    c--
+  } 
+    }
+
+    function secondCard(){
+      if(d == 0) {
+        document.querySelector('.cont_modal2').className = "cont_modal2";  
+        d++
+      } else {
+        document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2";  
+        d--
+      } 
+        }
