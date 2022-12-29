@@ -52,81 +52,118 @@ function closeMenu() {
     document.body.style.overflowY= "initial"
 }
 
-var c = 0;
-var d = 0;
-var f = 0;
-var widthSize = window.screen.availHeight
-var heightSize = window.screen.availWidth
 
-window.onresize = function () {
-   widthSize = window.screen.availHeight
-   heightSize = window.screen.availWidth
-  console.log(widthSize)
-  console.log(heightSize)
-}
-
-window.onload = function(){
-  document.querySelector('.cont_modal').className = "cont_modal";    
-  document.querySelector('.cont_modal2').className = "cont_modal2";     
-  // document.querySelector('.cont_modal3').className = "cont_modal3";
-  document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
-  document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
-  // document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3"
-  firstCard()
-  secondCard()
-  // thirdCard()
-  }
-
-function firstCard(){
-  if(c == 0) {
-    document.querySelector('.cont_modal').className = "cont_modal";  
-    c++
-  } else {
-    document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";  
-    c--
-  } 
-  if(window.screen.availWidth <= 700) {
-    document.querySelector('.cont_modal').className = "cont_modal cont_modal_active"
-    document.querySelector('.cont_text_ingredients').style.display = "none";
-    document.querySelector('.cont_photo').style.float = "none";
-    document.querySelector('.cont_photo').style.marginLeft = "100px";
-    document.querySelector('.cont_photo').style.marginRight = "0";
-  }
+var a = 0
+var b = 0
+var c = 0
+var d = 0
+var e = 0
+var f = 0
+function seeText() {
+    if(a == 0) {
+        document.getElementById("1Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow1").style.top = "-265px"
+        document.getElementById("img1").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text1").style.display = "flex"
+        }, 220);
+        a++
     }
-
-    function secondCard(){
-      if(d == 0) {
-        document.querySelector('.cont_modal2').className = "cont_modal2";  
+    else {
+        document.getElementById("1Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text1").style.display = "none";
+        document.getElementById("iconArrow1").style.top = "-10px";
+        document.getElementById("img1").style.opacity ="1"
+        a--
+    }
+}
+function seeText2() {
+    if(b == 0) {
+        document.getElementById("2Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow2").style.top = "-265px"
+        document.getElementById("img2").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text2").style.display = "flex"
+        }, 220);
+        b++
+    }
+    else {
+        document.getElementById("2Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text2").style.display = "none";
+        document.getElementById("iconArrow2").style.top = "-10px";
+        document.getElementById("img2").style.opacity ="1"
+        b--
+    }
+}
+function seeText3() {
+    if(c == 0) {
+        document.getElementById("3Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow3").style.top = "-265px"
+        document.getElementById("img3").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text3").style.display = "flex"
+        }, 220);
+        c++
+    }
+    else {
+        document.getElementById("3Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text3").style.display = "none";
+        document.getElementById("iconArrow3").style.top = "-10px";
+        document.getElementById("img3").style.opacity ="1"
+        c--
+    }
+}
+function seeText4() {
+    if(d == 0) {
+        document.getElementById("4Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow4").style.top = "-265px"
+        document.getElementById("img4").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text4").style.display = "flex"
+        }, 220);
         d++
-      } else {
-        document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2";  
+    }
+    else {
+        document.getElementById("4Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text4").style.display = "none";
+        document.getElementById("iconArrow4").style.top = "-10px";
+        document.getElementById("img4").style.opacity ="1"
         d--
-      } 
-      if(window.screen.availWidth <= 700) {
-        document.querySelector('.cont_modal2').className = "cont_modal2 cont_modal_active2"
-        document.querySelector('.cont_text_ingredients2').style.display = "none";
-        document.querySelector('.cont_photo2').style.float = "none";
-        document.querySelector('.cont_photo2').style.marginLeft = "100px";
-        document.querySelector('.cont_photo2').style.marginRight = "0";
-      }
-        }
-
-
-        // function thirdCard(){
-        //   if(f == 0) {
-        //     document.querySelector('.cont_modal3').className = "cont_modal3";  
-        //     f++
-        //   } else {
-        //     document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3";  
-        //     f--
-        //   } 
-        //   if(window.screen.availWidth <= 700) {
-        //     document.querySelector('.cont_modal3').className = "cont_modal3 cont_modal_active3"
-        //     document.querySelector('.cont_text_ingredients3').style.display = "none";
-        //     document.querySelector('.cont_photo3').style.float = "none";
-        //     document.querySelector('.cont_photo3').style.marginLeft = "100px";
-        //     document.querySelector('.cont_photo3').style.marginRight = "0";
-        //   }
-        //     }
-
-       
+    }
+}
+function seeText5() {
+    if(e == 0) {
+        document.getElementById("5Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow5").style.top = "-265px"
+        document.getElementById("img5").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text5").style.display = "flex"
+        }, 220);
+        e++
+    }
+    else {
+        document.getElementById("5Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text5").style.display = "none";
+        document.getElementById("iconArrow5").style.top = "-10px";
+        document.getElementById("img5").style.opacity ="1"
+        e--
+    }
+}
+function seeText6() {
+    if(f == 0) {
+        document.getElementById("6Arrow").style.transform = "rotate(180deg)";
+        document.getElementById("iconArrow6").style.top = "-265px"
+        document.getElementById("img6").style.opacity ="0.9"
+        setTimeout(() => {
+            document.getElementById("text6").style.display = "flex"
+        }, 220);
+        f++
+    }
+    else {
+        document.getElementById("6Arrow").style.transform = "rotate(0deg)"
+        document.getElementById("text6").style.display = "none";
+        document.getElementById("iconArrow6").style.top = "-10px";
+        document.getElementById("img6").style.opacity ="1"
+        f--
+    }
+}
