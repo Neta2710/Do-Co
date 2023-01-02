@@ -23,8 +23,8 @@ var x = 1
 function openMenu() {
     if (x == 1) {
        // document.getElementById("navBurger").style.display = "flex";
-        document.getElementById("navBurger").style.height = "235px"
-        document.getElementById("titleMenu").style.top = "5px"
+        document.getElementById("navBurger").style.height = "275px"
+        document.getElementById("titleMenu").style.top = "0px"
         x++
     } else {
        // document.getElementById("navBurger").style.display = "none";
@@ -37,7 +37,7 @@ function openMenu() {
 
 function hideNav () {
     document.getElementById("navBurger").style.height = "0px"
-    document.getElementById("titleMenu").style.top = "-210px"
+    document.getElementById("titleMenu").style.top = "-245px"
 
     x = 1
 }
