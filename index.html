@@ -28,7 +28,7 @@
           <a href="#menu" class="a">Le menu</a>
           <img src="assets/images/logo/logo.png" alt="logo_da&co" id="logo" />
           <a href="#devis" class="a">Demandez un devis</a>
-          <a href="#contact" class="a">Nous contactez</a>
+          <a href="#copyright" class="a">Nous contactez</a>
           <i
             class="fa-solid fa-bars"
             id="menuBurger"
@@ -106,10 +106,10 @@
         <div id="textInfo">
         <p>
           Chef à domicile Spécialité Cuisine Cacher Tout types Événements Anniversaire,
-          repas entre amis , brunch , tête à tête , séminaires , inauguration Etc De 2 à
+          repas entre amis , brunch , tête à tête , séminaires , inauguration etc de 2 à
           40 personnes. À fait ses armes chez de grands chefs étoilés avant de parfaire ses
           classes dans des brasseries de luxe. Une cuisine généreuse alliant goût et
-          délicatesse Osez nous faire confiance l’on vous le rendra au mieux. N’hésitez pas
+          délicatesse. Osez nous faire confiance l’on vous le rendra au mieux. N’hésitez pas
           à nous contacter pour un devis.
         </p>
         <img
@@ -152,7 +152,7 @@
 
       <div class="containerCard">
         <div class="newCard">
-          <img src="./assets/images/newCard/carrot.jpg" alt="" id="img2"/>
+          <img src="./assets/images/newCard/mangue.jpg" alt="" id="img2"/>
         </div>
         <span class="iconArrow" id="iconArrow2" >
           <i class="fa-solid fa-arrow-up"onclick="seeText2()" id="2Arrow"></i>
@@ -165,7 +165,7 @@
 
       <div class="containerCard">
         <div class="newCard">
-          <img src="./assets/images/newCard/mangue.jpg" alt="" id="img3"/>
+          <img src="./assets/images/newCard/tartine.jpg" alt="" id="img3"/>
         </div>
         <span class="iconArrow" id="iconArrow3">
           <i class="fa-solid fa-arrow-up" onclick="seeText3()" id="3Arrow"></i>
@@ -204,7 +204,7 @@
 
       <div class="containerCard">
         <div class="newCard">
-          <img src="./assets/images/newCard/tartine.jpg" alt="" id="img6"/>
+          <img src="./assets/images/newCard/pyramide.jpg" alt="" id="img6"/>
         </div>
         <span class="iconArrow" id="iconArrow6">
           <i class="fa-solid fa-arrow-up" onclick="seeText6()" id="6Arrow"></i>
@@ -242,6 +242,7 @@
               type="text"
               placeholder="Nom Prénom"
               required
+              minlength="4" maxlength="26"
             />
           </div>
           <div class="ccfield-prepend">
@@ -250,16 +251,18 @@
             ></span>
             <input
               class="ccformfield"
-              type="text"
+              type="mail"
               placeholder="Adresse mail"
               required
+              minlength="9" maxlength="52"
             />
           </div>
           <div class="ccfield-prepend">
             <span class="ccform-addon"
               ><i class="fa fa-mobile-phone fa-2x"></i
             ></span>
-            <input class="ccformfield" type="text" placeholder="Téléphone" />
+            <input class="ccformfield" type="text" placeholder="Téléphone" required
+            minlength="10" maxlength="28" />
           </div>
           <div class="ccfield-prepend">
             <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
@@ -268,6 +271,7 @@
               type="text"
               placeholder="Suject"
               required
+              minlength="2" maxlength="50"
             />
           </div>
           <div class="ccfield-prepend">
@@ -280,6 +284,7 @@
               rows="8"
               placeholder="Message"
               required
+              minlength="2" maxlength="120"
             ></textarea>
           </div>
           <div class="ccfield-prepend">

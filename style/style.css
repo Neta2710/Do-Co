@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -795,6 +796,13 @@ footer {
   }
   #sectionMain {
     width: 112%;
+}
+.newCard {
+  width: 240px !important;
+  height: 400px !important;
+}
+#thinking {
+width: 225px !important;
 }
 }
 

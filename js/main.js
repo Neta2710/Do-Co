@@ -29,7 +29,7 @@ function openMenu() {
     } else {
        // document.getElementById("navBurger").style.display = "none";
        document.getElementById("navBurger").style.height = "0px"
-       document.getElementById("titleMenu").style.top = "-210px"
+       document.getElementById("titleMenu").style.top = "-245px"
         x--
     }
 
