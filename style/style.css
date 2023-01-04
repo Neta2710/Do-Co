@@ -450,7 +450,20 @@ a:visited {
   justify-content: center;
   width: 55%;
   margin-right: 75px;
+  font-size: 20px;
 }
+
+#firstStrong {
+  color: #ec7a10;
+  font-size: 22px;
+}
+
+#secondStrong {
+  color: #ec7a10;
+  font-size: 18px;
+  font-style: italic;
+}
+
 
 #textInfo {
   display: flex;
@@ -624,6 +637,15 @@ footer {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #information p {
+    font-size: 16px;
+  }
+}
+
+
+
+
 @media screen and (max-width: 995px) {
   #test {
     display: flex;
@@ -750,7 +772,10 @@ footer {
   }
   #textInfo p {
     width: 75%;
+  
   }
+
+  
   .cont_modal {
     margin-bottom: 20% !important ;
   }
