@@ -64,7 +64,7 @@ function seeText() {
         if(a == 0) {
             document.getElementById("1Arrow").style.transform = "rotate(180deg)";
             document.getElementById("iconArrow1").style.top = "-244px"
-            document.getElementById("img1").style.opacity ="0.9"
+            document.getElementById("img1").style.opacity ="0.8"
             setTimeout(() => {
                 document.getElementById("text1").style.display = "flex"
             }, 220);
@@ -81,7 +81,7 @@ function seeText() {
         if(a == 0) {
             document.getElementById("1Arrow").style.transform = "rotate(180deg)";
             document.getElementById("iconArrow1").style.top = "-234px"
-            document.getElementById("img1").style.opacity ="0.9"
+            document.getElementById("img1").style.opacity ="0.8"
             setTimeout(() => {
                 document.getElementById("text1").style.display = "flex"
             }, 220);
@@ -102,7 +102,7 @@ function seeText2() {
     if(b == 0) {
         document.getElementById("2Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow2").style.top = "-194px"
-        document.getElementById("img2").style.opacity ="0.9"
+        document.getElementById("img2").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text2").style.display = "flex"
         }, 220);
@@ -119,7 +119,7 @@ function seeText2() {
     if(b == 0) {
         document.getElementById("2Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow2").style.top = "-187px"
-        document.getElementById("img2").style.opacity ="0.9"
+        document.getElementById("img2").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text2").style.display = "flex"
         }, 220);
@@ -139,7 +139,7 @@ function seeText3() {
     if(c == 0) {
         document.getElementById("3Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow3").style.top = "-194px"
-        document.getElementById("img3").style.opacity ="0.9"
+        document.getElementById("img3").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text3").style.display = "flex"
         }, 220);
@@ -155,7 +155,7 @@ function seeText3() {
 } else { if(c == 0) {
     document.getElementById("3Arrow").style.transform = "rotate(180deg)";
     document.getElementById("iconArrow3").style.top = "-187px"
-    document.getElementById("img3").style.opacity ="0.9"
+    document.getElementById("img3").style.opacity ="0.8"
     setTimeout(() => {
         document.getElementById("text3").style.display = "flex"
     }, 220);
@@ -174,7 +174,7 @@ function seeText4() {
     if(d == 0) {
         document.getElementById("4Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow4").style.top = "-169px"
-        document.getElementById("img4").style.opacity ="0.9"
+        document.getElementById("img4").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text4").style.display = "flex"
         }, 220);
@@ -190,7 +190,7 @@ function seeText4() {
 } else { if(d == 0) {
     document.getElementById("4Arrow").style.transform = "rotate(180deg)";
     document.getElementById("iconArrow4").style.top = "-164px"
-    document.getElementById("img4").style.opacity ="0.9"
+    document.getElementById("img4").style.opacity ="0.8"
     setTimeout(() => {
         document.getElementById("text4").style.display = "flex"
     }, 220);
@@ -209,7 +209,7 @@ function seeText5() {
     if(e == 0) {
         document.getElementById("5Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow5").style.top = "-244px"
-        document.getElementById("img5").style.opacity ="0.9"
+        document.getElementById("img5").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text5").style.display = "flex"
         }, 220);
@@ -226,7 +226,7 @@ function seeText5() {
     if(e == 0) {
         document.getElementById("5Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow5").style.top = "-234px"
-        document.getElementById("img5").style.opacity ="0.9"
+        document.getElementById("img5").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text5").style.display = "flex"
         }, 220);
@@ -246,7 +246,7 @@ function seeText6() {
     if(f == 0) {
         document.getElementById("6Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow6").style.top = "-219px"
-        document.getElementById("img6").style.opacity ="0.9"
+        document.getElementById("img6").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text6").style.display = "flex"
         }, 220);
@@ -263,7 +263,7 @@ function seeText6() {
     if(f == 0) {
         document.getElementById("6Arrow").style.transform = "rotate(180deg)";
         document.getElementById("iconArrow6").style.top = "-211px"
-        document.getElementById("img6").style.opacity ="0.9"
+        document.getElementById("img6").style.opacity ="0.8"
         setTimeout(() => {
             document.getElementById("text6").style.display = "flex"
         }, 220);
