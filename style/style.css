@@ -464,8 +464,13 @@ a:visited {
 }
 
 #firstStrong {
+  padding: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
   color: #ec7a10;
   font-size: 22px;
+  border: 1px solid black;
+  border-radius: 35px;
 }
 
 #secondStrong {
